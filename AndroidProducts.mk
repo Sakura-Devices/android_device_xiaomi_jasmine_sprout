@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The Xiaomi-SDM660 Project
+# Copyright (C) 2018-2020 The Xiaomi-SDM660 Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,9 +23,9 @@
 
 # inherit MI A2 lineage device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_jasmine_sprout.mk
+    $(LOCAL_DIR)/lineage_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    carbon_jasmine_sprout-eng \
-    carbon_jasmine_sprout-userdebug \
-		carbon_jasmine_sprout-eng
+    lineage_jasmine_sprout-eng \
+    lineage_jasmine_sprout-userdebug \
+		lineage_jasmine_sprout-eng
