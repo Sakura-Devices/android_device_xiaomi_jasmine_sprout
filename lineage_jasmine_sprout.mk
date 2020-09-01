@@ -25,7 +25,16 @@
 $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 
 # Inherit Sakura product configuration
-$(call inherit-product, vendor/lineage/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+# OP Luncher stuffs
+LAWNCHAIR_OPTOUT=true
+
+# Sakura Version
+SAKURA_OFFICIAL := true
+
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
@@ -40,4 +49,3 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := lineage_jasmine_sprout
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := Mi A2
-TARGET_BOOT_ANIMATION_RES := 1080
