@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "Sakura-Devices/android_device_xiaomi_sdm660-common",
+    "target_path": "device/xiaomi/sdm660-common",
+    "remote": "github",
+    "revision": "10"
+ },
+  {
+    "repository": "Sakura-Devices/android_vendor_xiaomi_wayne-common",
+    "target_path": "vendor/xiaomi/wayne-common",
+    "remote": "github",
+    "revision": "10"
+ },
+  {
+    "repository": "Sakura-Devices/android_vendor_xiaomi_sdm660-common",
+    "target_path": "vendor/xiaomi/sdm660-common",
+    "remote": "github",
+    "revision": "10"
+ },
+  {
+    "repository": "Sakura-Devices/android_kernel_xiaomi_sdm660",
+    "target_path": "kernel/xiaomi/sdm660",
+    "remote": "github",
+    "revision": "10"
+ },
+  {
+    "repository": "Sakura-Devices/android_vendor_xiaomi_MiuiCamera",
+    "target_path": "vendor/xiaomi/MiuiCamera",
+    "remote": "github",
+    "revision": "10"
+  }
+]
